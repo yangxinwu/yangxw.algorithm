@@ -59,7 +59,7 @@ public class RemoveDuplicates {
 
         if (num.length == 0) return 0;
         int i = 0;
-        for (int j = 0; j < num.length ; j++) {
+        for (int j = 0; j < num.length ; j++) { //双指针法 i是慢指针 j是快指针
             if (num[i] != num[j]){
                 i ++ ;
                 num[i] = num[j];
